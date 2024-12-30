@@ -1,5 +1,4 @@
 import { MongoDBAdapter } from '@auth/mongodb-adapter'
-import Google from 'next-auth/providers/google'
 import bcrypt from 'bcryptjs'
 import CredentialsProvider from 'next-auth/providers/credentials'
 import { connectToDatabase } from './lib/db'
