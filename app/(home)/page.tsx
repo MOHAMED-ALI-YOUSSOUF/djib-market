@@ -1,10 +1,11 @@
-import { Button } from "@/components/ui/button";
+import { HomeCarousel } from "@/components/shared/home/home-carousel";
+import data from "@/lib/data";
 
 
 export default function Home() {
   return (
     <div className="flex items-center justify-center">
-      <Button>Button</Button>
+      <HomeCarousel items={data.carousels}/>
      
     </div>
   );
