@@ -1,5 +1,5 @@
 import { Metadata } from 'next'
-import { SessionProvider } from 'next-auth/react'
+// import { SessionProvider } from 'next-auth/react'
 
 import { auth } from '@/auth'
 
@@ -7,6 +7,7 @@ import Link from 'next/link'
 import { Card, CardContent } from '@/components/ui/card'
 import { Separator } from '@/components/ui/separator'
 import { Button } from '@/components/ui/button'
+import { SessionProvider } from 'next-auth/react'
 
 const PAGE_TITLE = 'Login & Security'
 export const metadata: Metadata = {
