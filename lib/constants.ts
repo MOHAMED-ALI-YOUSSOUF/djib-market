@@ -1,4 +1,7 @@
 export const APP_NAME= process.env.NEXT_PUBLIC_APP_NAME || 'Djib-market'
+export const SERVER_URL = process.env.NEXT_PUBLIC_SERVER_URL || 'http://localhost:3000'
+export const SENDER_EMAIL = process.env.NEXT_PUBLIC_SENDER_EMAIL || 'wizzimed@gmail.com'
+export const SENDER_NAME = process.env.NEXT_PUBLIC_SENDER_NAME || APP_NAME
 export const APP_SLOGAN= process.env.NEXT_PUBLIC_APPSLOGAN || 'Spend less, enjoy more'
 export const APP_DESCRIPTION = process.env.NEXT_PUBLIC_APP_DESCRIPTION || 'Djib-market is a marketplace where you can buy and sell products easily and quickly, with a wide range of categories and a user-friendly interface.'
 export const APP_COPYRIGHT = process.env.NEXT_PUBLIC_APP_COPYRIGHT || 'Copyright © 2025 ${APP_NAME}.All rights reserved'
